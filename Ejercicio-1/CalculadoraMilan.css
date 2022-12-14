@@ -1,0 +1,49 @@
+/* Especificidad = 001 */
+body {
+
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    background-color: rgba(112, 110, 110, 0.8);
+    padding: 1em;
+}
+
+/* Especificidad = 001 */
+h1 {
+    background-color: #c5bb2d;
+    padding: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Especificidad = 001 */
+form {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding-left: 2%;
+}
+
+/* Especificidad = 001 */
+label {
+    font-size: 1.2em;
+    margin: 2%;
+    text-align: right;
+}
+
+
+/* Especificidad = 011 */
+input[type=text]{
+    background-color: white;
+    margin: 1%;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+/* Especificidad = 011 */
+input[type=button]{
+    margin: 15%;
+}
+
+
