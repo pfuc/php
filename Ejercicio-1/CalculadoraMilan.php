@@ -7,13 +7,10 @@
     <meta name="description" content="Ejercicio 3"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css"/>
-    <script src="CalculadoraMilan.js"></script>
 </head>
 <body>
 <header><h1>Calculadora Milan</h1></header>
 
-    <label for="pantalla">Pantalla</label>
-    <input type="text" name="pantalla" id="pantalla" value="0" disabled/>
     <?php
     session_start();
 
@@ -144,6 +141,7 @@
     <?php
     echo "<label for='pantalla'>Pantalla</label><input type='text' name='pantalla' id='pantalla' value='" . $calculadora->getDisplay() . "' disabled/>"
     ?>
+    
     <form>
             <input type="button" value="C" onclick="calculadora.cleanDisplay()"/>
             <input type="button" value="CE" onclick="calculadora.cleanDisplayCE()"/>
