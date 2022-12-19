@@ -19,7 +19,7 @@ h1 {
 form {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    width: 30%;
+    width: 60%;
     height: auto;
     text-align: center;
     padding-left: 2%;
@@ -31,9 +31,7 @@ label {
     margin: 2%;
     text-align: right;
 }
-form{
-    width: 60%;
-}
+
 
 /* Especificidad = 011 */
 button[type=submit]{
@@ -45,6 +43,7 @@ button[type=submit]{
     height: 5em;    
 }
 
+/* Especificidad = 011 */
 button[title="enviar"]{
     width: 5em;
     height: 5em;
