@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora RPN</title>
+    <meta name="author" content="Pablo Urones Clavera" />
+    <meta name="description" content="Ejercicio 3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora RPN</h1>
+    </header>
+
+    <label for="resultado">Valor en pila</label>
+    <input type="text" name="resultado" id="resultado" value="0" disabled />
+
+    <label for="pantalla">Pantalla</label>
+    <input type="text" name="pantalla" id="pantalla" value="0" disabled />
+
+    <form action='#' method='post'>
+        <input type='submit' value='log' name='logaritmo' />
+        <input type='submit' value='*' name='multiplicar' />
+
+        <input type='submit' value='asen' name='seno' />
+        <input type='submit' value='acos' name='coseno' />
+        <input type='submit' value='atan' name='tangente' />
+        <input type='submit' value='/' name='dividir' />
+        <input type='submit' value='+' name='sumar' />
+
+        <input type='submit' value='7' name='7' />
+        <input type='submit' value='8' name='8' />
+        <input type='submit' value='9' name='9' />
+        <input type='submit' value='-' name='restar' />
+        <input type='submit' value='x^2' name='cuadrado' />
+
+        <input type='submit' value='4' name='4' />
+        <input type='submit' value='5' name='5' />
+        <input type='submit' value='6' name='6' />
+        <input type="submit" value="." name="punto" />
+        <input type='submit' value='C' name='borrar' />
+
+        <input type='submit' value='1' name='1' />
+        <input type='submit' value='2' name='2' />
+        <input type='submit' value='3' name='3' />
+
+        <input type="submit" value="0" name="0" />
+        <input type="submit" value="Enter" name="enter" />
+
+        </form>
+
+</body>
+
+</html>
