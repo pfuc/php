@@ -19,7 +19,7 @@ h1 {
 form {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    width: 25%;
+    width: 35%;
     height: auto;
     text-align: center;
     padding-left: 2%;
@@ -43,7 +43,6 @@ input[type=text]{
 
 /* Especificidad = 011 */
 input[type=submit]{
-    margin: 15%;
+    margin: 17%;
+    font-size: 1.2em;
 }
-
-

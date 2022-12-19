@@ -1,0 +1,20 @@
+/* especificidad = 001 */
+body {
+    font: 400 1em Verdana, sans-serif;
+    line-height: 2em;
+    color: #000;
+    background-color: rgba(112, 110, 110, 0.8);
+}
+
+/* especificidad = 001 */
+header {
+    background-color: #c5bb2d;
+    font: 400 1.4em 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* especificidad = 001 */
+h2 {
+    font: 400 1.4em 'Times New Roman', Times, serif;
+    background-color: #c5bb2d;
+}
